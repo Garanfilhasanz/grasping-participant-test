@@ -16,7 +16,7 @@ This repository contains Python scripts and example data for analyzing tactile-g
 ## Output Metrics
 
 *Reaction Time*: Time from vibration onset to movement initiation.
-*Exploration Time*: Same as reaction time (approximation due to setup limits).
+*Exploration Time*: Same as reaction time. 
 *Grasping Accuracy*: Based on keypresses (`y` for correct, `n` for incorrect).
 *Smoothness Score*: Based on changes in vibration motor patterns.
 
