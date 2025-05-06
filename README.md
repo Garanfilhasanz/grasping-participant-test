@@ -10,7 +10,7 @@ This repository contains Python scripts and example data for analyzing tactile-g
 
 ## How to Use
 
-1. Run `analyze_test_data.py` in the same folder as your input data.
+1. Run `analyze_test_data.py` in the same folder as input data.
 2. The script will output `processed_test.csv` with calculated metrics.
 
 ## Output Metrics
@@ -20,12 +20,10 @@ This repository contains Python scripts and example data for analyzing tactile-g
 *Grasping Accuracy*: Based on keypresses (`y` for correct, `n` for incorrect).
 *Smoothness Score*: Based on changes in vibration motor patterns.
 
-## Research Context
+## Context
 
-This project is part of a broader study on tactile guidance systems for blind individuals, focusing on sensorimotor control and the role of hand dominance.
+This project is part of a study on tactile guidance systems for blind individuals, focusing on sensorimotor control and the role of hand dominance.
 
-## Author
 
-Garanfil Hasanzade  
 Email: garanfil.hasanzade@yandex.com  
 GitHub: [Garanfilhasanz](https://github.com/Garanfilhasanz)

@@ -21,7 +21,8 @@ def compute_smoothness(detection_str):
 df['smoothness'] = df['target_detections'].apply(compute_smoothness)
 
 # Save the analysis results
-df[['target_label', 'reaction_time', 'exploration_time', 'accuracy', 'smoothness']].to_csv("processed_test.csv", index=False)
+df[['target_label', 'reaction_time', 'exploration_time', 'accuracy', 'smoothness']].to_csv("grasping_metrics_output.csv", index=False)
 
-print("✅ Data successfully processed. Results saved to 'processed_test.csv'.")
+print("✅ Data successfully processed. Results saved to 'grasping_metrics_output.csv'.")
+
 
