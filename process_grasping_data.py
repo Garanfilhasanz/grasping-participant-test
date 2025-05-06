@@ -2,7 +2,7 @@ import pandas as pd
 import ast
 
 # Load the data file
-df = pd.read_csv("grasping_participant_test.csv")
+df = pd.read_csv("raw_grasping_data.csv")
 
 # Calculate reaction time and exploration time
 df['reaction_time'] = df['grasp_signal'] - df['nav_start']

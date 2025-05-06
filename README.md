@@ -4,8 +4,8 @@ This repository contains Python scripts and example data for analyzing tactile-g
 
 ## Files
 
- `analyze_test_data.py`: Main script to compute reaction time, exploration time, grasping accuracy, and smoothness.
- `grasping_participant_test.csv`: Example raw data file.
+ `process_grasping_data.py`: Main script to compute reaction time, exploration time, grasping accuracy, and smoothness.
+ `raw_grasping_data.csv`: Example raw data file.
  `processed_test.csv`: Output file with all computed features.
 
 ## How to Use
